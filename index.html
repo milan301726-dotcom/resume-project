@@ -3,52 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Milan Resume</title>
+    <title>Milan V M - Resume</title>
     <link rel="stylesheet" href="style.css">
-</head>
 
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
 <body>
 
-    <header>
-        <h1> RESUME - MILAN</h1>
-    </header>
+<div class="resume">
 
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
+    <!-- LEFT COLUMN -->
+    <aside class="left">
 
-    <main>
+        <div class="profile">
+            <img src="images/profile.jpg" alt="Profile Photo">
+            <h1>Milan V M</h1>
+            <p>MERN Stack Developer</p>
+        </div>
 
-        <section id="projects">
+        <div class="section">
+            <h2>Contact</h2>
+            <p>📧 yourmail@gmail.com</p>
+            <p>📱 +91 XXXXX XXXXX</p>
+            <p>📍 Kerala, India</p>
+            <p>💻 github.com/yourusername</p>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
+
+            <div class="skill">
+                <span>HTML</span>
+                <div class="bar"><div style="width:95%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span>CSS</span>
+                <div class="bar"><div style="width:90%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span>JavaScript</span>
+                <div class="bar"><div style="width:85%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span>React</span>
+                <div class="bar"><div style="width:80%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span>Node.js</span>
+                <div class="bar"><div style="width:75%"></div></div>
+            </div>
+
+            <div class="skill">
+                <span>MongoDB</span>
+                <div class="bar"><div style="width:70%"></div></div>
+            </div>
+
+        </div>
+
+        <div class="section">
+            <h2>Languages</h2>
+            <ul>
+                <li>English</li>
+                <li>Malayalam</li>
+            </ul>
+        </div>
+
+    </aside>
+
+    <!-- RIGHT COLUMN -->
+    <main class="right">
+
+        <section>
+            <h2>Profile</h2>
+
+            <p>
+                Motivated Computer Science undergraduate with hands-on
+                experience in MERN Stack development. Passionate about
+                building responsive web applications and learning modern
+                web technologies.
+            </p>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+
+            <div class="card">
+                <h3>B.Tech Computer Science</h3>
+                <p>KTU University</p>
+                <span>2022 - 2026</span>
+            </div>
+
+        </section>
+
+        <section>
             <h2>Projects</h2>
 
-            <ol>
-                <li>ABC</li>
-                <li>DEF</li>
-                <li>GHI</li>
-            </ol>
+            <div class="card">
+                <h3>E-Commerce Website</h3>
+                <p>
+                    Built using React, Tailwind CSS and FakeStore API.
+                    Responsive shopping interface with product listing.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Portfolio Website</h3>
+                <p>
+                    Personal portfolio showcasing projects, skills,
+                    certifications and contact information.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Trading Journal</h3>
+                <p>
+                    Web application for recording trades and tracking
+                    trading performance.
+                </p>
+            </div>
+
         </section>
 
-        <section id="skills">
-            <h2>My Skills</h2>
+        <section>
+            <h2>Certifications</h2>
 
-            <img src="pages/images.png" alt="HTML Logo" width="120">
-            <img src="pages/images (1).png" alt="CSS Logo" width="120">
-            <img src="pages/JqxsAtj7G5bc4D8vfE5LKrGjLhm2dgYi7aRtEXBd.jpg" alt="JavaScript Logo" width="120">
-        </section>
+            <ul>
+                <li>MERN Stack Development</li>
+                <li>JavaScript Programming</li>
+                <li>React Development</li>
+            </ul>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: yourmail@gmail.com</p>
-            <p>Phone: +91 XXXXXXXXXX</p>
         </section>
 
     </main>
+
+</div>
 
 </body>
 </html>
